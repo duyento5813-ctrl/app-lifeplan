@@ -1,0 +1,78 @@
+/* Reset cơ bản */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f6f9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header */
+header {
+    background-color: #0056b3;
+    color: #ffffff;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+header h1 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+header .subtitle {
+    font-size: 1rem;
+    opacity: 0.9;
+}
+
+/* Layout Container */
+.container {
+    max-width: 800px;
+    width: 90%;
+    margin: 2rem auto;
+    flex: 1;
+}
+
+/* Style cho các Section Card */
+.card {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.card h2 {
+    color: #0056b3;
+    font-size: 1.3rem;
+    border-bottom: 2px solid #e9ecef;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Danh sách thiết bị & Quy định */
+.equipment-list, .rules-list {
+    padding-left: 1.2rem;
+}
+
+.equipment-list li, .rules-list li {
+    margin-bottom: 0.8rem;
+}
+
+/* Footer */
+footer {
+    background-color: #e9ecef;
+    text-align: center;
+    padding: 1rem;
+    color: #6c757d;
+    font-size: 0.9rem;
+    margin-top: auto;
+}
